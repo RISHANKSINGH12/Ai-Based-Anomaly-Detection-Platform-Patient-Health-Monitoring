@@ -1,4 +1,4 @@
-# AI-Based Anomaly Detection in Patient Health Monitoring using Kafka Streaming
+# AI-Based Anomaly Detection in Patient Health Monitoring
 
 ## Project Overview
 
