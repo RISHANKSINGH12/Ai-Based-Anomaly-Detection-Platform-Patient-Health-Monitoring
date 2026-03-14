@@ -8,51 +8,51 @@ The system streams patient vitals data through Apache Kafka, processes it in rea
 
 ## Technologies Used
 
-- Apache Kafka â€“ Real-time data streaming
-- Python â€“ Core programming language
-- Flask â€“ Backend API
-- Streamlit â€“ Dashboard visualization
-- Scikit-learn â€“ Machine learning for anomaly detection
-- Pandas â€“ Data processing
+- Apache Kafka – Real-time data streaming
+- Python – Core programming language
+- Flask – Backend API
+- Streamlit – Dashboard visualization
+- Scikit-learn – Machine learning for anomaly detection
+- Pandas – Data processing
 
 ## System Architecture
 
 Patient Data Generator  
-â†“  
+↓  
 Kafka Producer  
-â†“  
+↓  
 Kafka Topic (patient-vitals)  
-â†“  
+↓  
 Kafka Consumer  
-â†“  
+↓  
 Patient Monitoring + Alert Detection  
-â†“  
+↓  
 CSV Data Storage  
-â†“  
+↓  
 Flask API  
-â†“  
+↓  
 Streamlit Dashboard
 
 ## Project Structure
 
 AI-Anomaly-Detection/
 
-producer.py â€“ Sends patient vitals to Kafka  
-consumer.py â€“ Receives data and processes alerts  
-train_model.py â€“ Trains anomaly detection model  
-patient_data.csv â€“ Dataset generated from streaming  
+producer.py – Sends patient vitals to Kafka  
+consumer.py – Receives data and processes alerts  
+train_model.py – Trains anomaly detection model  
+patient_data.csv – Dataset generated from streaming  
 
 backend/  
-app.py â€“ Flask API  
+app.py – Flask API  
 
 dashboard/  
-dashboard.py â€“ Streamlit dashboard  
+dashboard.py – Streamlit dashboard  
 
 model/  
-anomaly_model.pkl â€“ Trained ML model  
+anomaly_model.pkl – Trained ML model  
 
-requirements.txt â€“ Project dependencies  
-README.md â€“ Project documentation
+requirements.txt – Project dependencies  
+README.md – Project documentation
 
 ## Features
 
@@ -107,7 +107,7 @@ The system will show:
 
 ## Example Alert
 
-âš  ALERT for Patient 2  
+⚠ ALERT for Patient 2  
 Reasons:  
 - High Heart Rate  
 - Low Oxygen
